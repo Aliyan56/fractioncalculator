@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  --brand: #4f46e5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-50 text-slate-800 antialiased;
+}
+
+h1, h2, h3 {
+  @apply tracking-tight text-slate-900;
+}
